@@ -9,9 +9,10 @@ import {
   IconFork,
   IconGitHub,
   IconInstagram,
+  IconMedium,
   IconLinkedin,
-  IconLoader,
-  IconLogo,
+  IconHexagonLetterM,
+  // IconLogo,
   IconPlayStore,
   IconStar,
   IconTwitter,
@@ -35,12 +36,14 @@ const Icon = ({ name }) => {
       return <IconGitHub />;
     case 'Instagram':
       return <IconInstagram />;
+    case 'Medium':
+      return <IconMedium />;  
     case 'Linkedin':
       return <IconLinkedin />;
     case 'Loader':
-      return <IconLoader />;
-    case 'Logo':
-      return <IconLogo />;
+      return <IconHexagonLetterM />;
+    // case 'Logo':
+    //   return <IconLogo />;
     case 'PlayStore':
       return <IconPlayStore />;
     case 'Star':

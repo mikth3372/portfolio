@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['C++', 'gRPC', 'Java Spring Boot', 'AWS', 'Python', 'OpenCV'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+            Hello! My name is Mikhael Zacharias Thomas.
+            I have always been interested in Computers since I was a kid and been fascinated by the way they work. 
+            I started coding in high school and I have been coding ever since.
+            Since then, I have explored various domains in Computer Science and have worked on many projects. 
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://xebia.com/">a global MNC</a>,{' '}
+              <a href="https://csl-lab-upenn.github.io/">a research-lab</a>,{' '}
+               and{' '}
+              <a href="https://www.nias.res.in/">a research-institute</a>. Currently, I am working on creating a platform for a teleoperated system which convert manual forklifts to semi-autonomous forklifts at{' '}<a href="https://xlab.upenn.edu/">xLab</a> .
             </p>
 
             <p>
-              I also recently{' '}
+              Recently, I have gained an interest in Computer systems especially distributed systems and cloud computing. I worked on a {' '}
+              
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              distributed cloud storage system
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              using C++ and gRPC which was based on Google's BigTable.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +170,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me1.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

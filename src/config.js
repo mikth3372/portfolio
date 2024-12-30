@@ -1,22 +1,23 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'mikth@seas.upenn.edu',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/mikth3372',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/likemike3372',
     },
+
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'Medium',
+      url: 'https://medium.com/@mikth',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/mikhaelthomas/',
     },
     {
       name: 'Codepen',

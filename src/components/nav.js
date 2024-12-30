@@ -188,18 +188,18 @@ const Nav = ({ isHome }) => {
           <div className="hex-container">
             <IconHex />
           </div>
-          <div className="logo-container">
+          {/* <div className="logo-container">
             <IconLogo />
-          </div>
+          </div> */}
         </a>
       ) : (
         <Link to="/" aria-label="home">
           <div className="hex-container">
             <IconHex />
           </div>
-          <div className="logo-container">
+          {/* <div className="logo-container">
             <IconLogo />
-          </div>
+          </div> */}
         </Link>
       )}
     </div>
