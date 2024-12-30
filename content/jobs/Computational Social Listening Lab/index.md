@@ -2,6 +2,7 @@
 date: '2024-08-25'
 title: 'Software Developer'
 company: 'Computational Social Listening Lab'
+shortCompany: 'CSLL Penn'
 location: 'Philadelphia, PA'
 range: 'June - August 2024'
 # url: 'https://www.upstatement.com/'

@@ -154,6 +154,9 @@ const StyledTabPanel = styled.div`
     .company {
       color: var(--green);
     }
+    .shortCompany {
+      color: var(--green);
+    }
   }
 
   .range {
@@ -176,6 +179,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              shortCompany
               location
               range
               url
@@ -250,7 +254,7 @@ const Jobs = () => {
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
+              const { shortCompany } = node.frontmatter;
               return (
                 <StyledTabButton
                   key={i}
@@ -262,7 +266,7 @@ const Jobs = () => {
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
-                  <span>{company}</span>
+                  <span>{shortCompany}</span>
                 </StyledTabButton>
               );
             })}

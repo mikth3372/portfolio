@@ -2,6 +2,7 @@
 date: '2023-06-19'
 title: 'Software Developer'
 company: 'Xebia'
+shortCompany: 'Xebia'
 location: 'New Delhi, India'
 range: 'July 2021 - June 2023'
 # url: 'https://www.apple.com/music/'
